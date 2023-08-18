@@ -1,0 +1,16 @@
+* {
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the children */
+    align-items: center; /* Vertically centers the children */
+    height: 100vh; /* For example, 100% of the viewport height */
+}
+
+.button {
+    margin: 10px;
+}
